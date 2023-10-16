@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <title>Livecoding - NBA</title>
+</head>
+<body>
+    <section class="title">
+        <span class="small">Choisis ton</span>
+        <span class="big">EQUIPE</span>
+        <div class="more-teams">
+            <span>Plus d'équipes...</span>
+        </div>
+    </section>
+    <section class="content">
+        <div class="content-left">
+            <div class="teams-container">
+                <div class="team-item active">
+                    <input id="lakers" checked name="teams" value="lakers" type="radio">
+                    <label for="lakers" class="lakers">
+                        <div class="team-logo">
+                            <img class="lakers" src="assets/img/logo/l-lakers.png" alt="Lakers logo">
+                        </div>
+                        <span class="team-name">Lakers</span>
+                    </label>
+                    <div class="item-decoration"></div>
+                </div>
+                <div class="team-item">
+                    <input id="raptors" name="teams" value="raptors" type="radio">
+                    <label for="raptors" class="raptors">
+                        <div class="team-logo">
+                            <img src="assets/img/logo/l-raptors.png" alt="Raptors logo">
+                        </div>
+                        <span class="team-name">Raptors</span>
+                    </label>
+                    <div class="item-decoration"></div>
+                </div>
+                <div class="team-item">
+                    <input id="celtics" name="teams" value="celtics" type="radio">
+                    <label for="celtics" class="celtics">
+                        <div class="team-logo">
+                            <img src="assets/img/logo/l-celtics.png" alt="Celtics logo">
+                        </div>
+                        <span class="team-name">Celtics</span>
+                    </label>
+                    <div class="item-decoration"></div>
+                </div>
+                <div class="team-item">
+                    <input id="bucks" name="teams" value="bucks" type="radio">
+                    <label for="bucks" class="bucks">
+                        <div class="team-logo">
+                            <img src="assets/img/logo/l-bucks.png" alt="Bucks logo">
+                        </div>
+                        <span class="team-name">Bucks</span>
+                    </label>
+                    <div class="item-decoration"></div>
+                </div>
+                <div class="team-item">
+                    <input id="bulls" name="teams" value="bulls" type="radio">
+                    <label for='bulls' class="bulls">
+                        <div class="team-logo">
+                            <img src="assets/img/logo/l-bulls.png" alt="Bulls logo">
+                        </div>
+                        <span class="team-name">Bulls</span>
+                    </label>
+                    <div class="item-decoration"></div>
+                </div>
+            </div>
+            <div class="video">
+                <video width="400" src="assets/video/highlight-bucks.mp4" autoplay muted></video>
+            </div>
+        </div>
+        <div class="content-right">
+            <div class="decoration"></div>
+            <div class="circle-team-img">
+                <img id="team-img" src="assets/img/teams/lakers.png" alt="">
+            </div>
+        </div>
+    </section>
+    <script src="assets/js/script.js"></script>
+</body>
+</html>

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/main.css">
+    <title>TP Audi JS</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
+</head>
+<body>
+    <main>
+<section>
+    <div class="car-container">
+        <img id="car-img" src="img/cars/e-tron-gt/blue_normal.png" alt="Your perfect Audi">
+    </div>
+    <div class="car-price">
+        <h1>Audi E tron GT - <span id="car-price"></span>€</h1>
+    </div>
+    <div class="car-selectors">
+        <div class="colors">
+            <div class="color-blue">
+                <input class="customisation" type="radio" name="color" value="blue" id="color-blue" checked>
+                <label for="color-blue"><img src="img/colors/blue.png" alt="Blue color"><div class="checked"><img src="img/checked.svg" alt="checked icon"></div></label>
+            </div>
+            <div class="color-nacre">
+                <input class="customisation" type="radio" name="color" value="nacre" id="color-nacre">
+                <label for="color-nacre"><img src="img/colors/nacre.png" alt="Nacre color"><div class="checked"><img src="img/checked.svg" alt="checked icon"></div></label>
+            </div>
+        </div>
+        <div class="rims">
+            <div class="rims-normal">
+                <input class="customisation" type="radio" name="rims" value="normal" id="rims-normal" checked>
+                <label for="rims-normal"><img src="img/rims/normal.png" alt="Normal rims">
+                    <div class="checked"><img src="img/checked.svg" alt="checked icon"></div></label>
+            </div>
+            <div class="rims-medium">
+                <input class="customisation" type="radio" name="rims" value="medium" id="rims-medium">
+                <label for="rims-medium"><img src="img/rims/medium.png" alt="Medium rims">
+                    <div class="checked"><img src="img/checked.svg" alt="checked icon"></div></label>
+            </div>
+            <div class="rims-premium">
+                <input class="customisation" type="radio" name="rims" value="premium" id="rims-premium">
+                <label for="rims-premium">
+                    <img src="img/rims/premium.png" alt="Premium rims">
+                    <div class="checked"><img src="img/checked.svg" alt="checked icon"></div>
+                </label>
+            </div>
+        </div>
+    </div>
+</section>
+    </main>
+    <script src="js/main.js"></script>
+</body>
+</html>

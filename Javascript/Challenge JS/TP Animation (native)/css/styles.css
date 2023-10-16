@@ -1,0 +1,74 @@
+* {
+    box-sizing: border-box;
+}
+html, body {
+    width: 100%;
+    height: 100vh;
+    background-color: #131313;
+    color: #ececec;
+    margin: 0;
+}
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: url(../img/bg-exo2.jpg);
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    overflow-x: hidden;
+}
+section {
+    height: 100%;
+    display: flex;
+    position: relative;
+    overflow: hidden;
+    flex-shrink: 0;
+}
+.animation-container {
+    top: 50%;
+    
+    position: absolute;
+    transform: translateY(-50%);
+    overflow: hidden;
+    
+}
+.animation-img {
+    width: 100%;
+}
+.animation-container.left img {
+    position: absolute;
+    top: 0;
+    animation: perma-spin 4s steps(120, jump-end) infinite;
+}
+.animation-container.left {
+    left: 2%;
+    height: 389px;
+    width: 300px;
+}
+.animation-container.right {
+    right: 10%;
+    width: 203px;
+    height: 302px;
+
+}
+.animation-container.right img {
+    position: absolute;
+    top: 0;
+}
+
+.left-img, .right-img {
+    display: flex;
+    align-items: center;
+}
+
+@keyframes perma-spin {
+    100% {
+        /* transform: translateY(-100%); */
+    }
+}
+
+@media screen and (max-width: 950px)  {
+    .animation-container {
+        transform: scale(0.8) translateY(-60%);
+    }
+}

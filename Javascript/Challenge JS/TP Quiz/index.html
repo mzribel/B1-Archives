@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="icon" type="image/x-icon" href="img/favicon.ico">
+    <title>TP Quiz</title>
+</head>
+<body>
+    <main>
+        <div class="start-quiz">
+            <button class="btn">COMMENCER LE QUIZ !</button>
+        </div>
+        <div class="quiz-container hidden">
+            <div class="quiz-title"></div>
+            <form method="post">
+                <div class="answers-container"></div>
+                <input class="btn submit" type="submit" value="VALIDER">
+                <p id="details"></p>
+            </form>
+            <button class="btn next hidden">QUESTION SUIVANTE</button>
+        </div>
+        <div class="end-quiz hidden">
+            <p>🎉 Le quiz est terminé ! Ton score est: 🎉</p>
+            <p><span class="points"></span> / 5 points!</p>
+        </div>
+    </main>
+    <script src="js/data.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>

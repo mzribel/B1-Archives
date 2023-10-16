@@ -1,0 +1,8 @@
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1"
+  xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>system-select-small-filled</title>
+    <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <circle stroke="#FFFFFF" fill="#009900" fill-rule="nonzero" cx="12" cy="12" r="11"></circle>
+        <polyline stroke="#FFFFFF" points="7.808 11.815 11.117 15.125 16.192 7.875"></polyline>
+    </g>
+</svg>

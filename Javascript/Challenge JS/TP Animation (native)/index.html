@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.5/gsap.min.js"></script>
+    <title>TP Animation</title>
+</head>
+<body>
+    <section class="left-screen">
+        <!-- Animation réalisée en CSS -->
+        <div class="animation-container left">
+            <img class="animation-img" src="img/seq-a.png" alt="">
+        </div>
+        <div class="left-img">
+            <img src="img/left-part.png" alt="">
+        </div>
+        <div class="right-img">
+            <img src="img/right-part.png" alt="">
+        </div>
+        <!-- Animation réalisée avec GSAP -->
+        <div class="animation-container right">
+            <img class="animation-img" id="test" src="img/seq-b.png" alt="">
+        </div>
+    </section>
+    <script src="js/script.js"></script>
+</body>
+</html>

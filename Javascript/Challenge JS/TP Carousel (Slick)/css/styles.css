@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    height: 100vh;
+    width: 100%;
+    background-color: #ececec;
+    color: #131313;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 25px;
+}
+
+.slick-container {
+    width: 100%;
+    max-width: 1200px;
+    aspect-ratio: 2;
+}
+
+.slick-slide img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+.slick-list, .slick-track {
+    height: 100%;
+}
+.slick-track {
+    display: flex !important;
+    gap: 10px;
+}
+
+.slick-arrow {
+    height: 40px;
+    width: 50px;
+    background-color: rgba(255, 255, 255, .9);
+    border-radius: 50px;
+    backdrop-filter: blur(3px);
+    border: 2px solid #131313;
+    outline: none;
+    font-weight: bolder;
+    z-index: 2;
+}
+.slick-next {
+    right: 10px;
+}
+.slick-prev {
+    left: 15px;
+}
+.slick-prev:hover, .slick-prev:focus, .slick-next:hover, .slick-next:focus {
+    
+    background-color: rgba(255, 255, 255, .9);
+}
+.slick-next::before, .slick-prev::before {
+    font-family: 'Poppins', sans-serif;
+    font-size: 40px;
+
+    color: #131313 !important;
+    position: relative;
+
+}
+.slick-next::before {
+    left: 2px;
+    content: ">";
+}
+.slick-prev::before {
+    content: "<";
+    right: 1px;
+}
+
+.slick-dots li {
+    margin: 0 !important;
+    font-size: 10px !important;
+}
+
+.slick-dots li button:before {
+    font-size: 9px;
+}
+@media screen and (max-width: 950px) {
+}
+
+@media screen and (max-width: 550px) {
+    body {
+        padding: 10px;
+    }
+}
