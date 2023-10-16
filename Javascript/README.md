@@ -14,4 +14,4 @@
 
 ---
 
-- **Shopping App**
+- [**Shopping App**](https://github.com/evzs/miaoushop) (ft. [evzs](https://github.com/evzs)
